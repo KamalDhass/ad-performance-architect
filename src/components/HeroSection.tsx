@@ -26,12 +26,12 @@ const HeroSection = () => {
             key={i}
             className="absolute w-1 h-1 bg-primary/30 rounded-full"
             initial={{
-              x: Math.random() * window.innerWidth,
-              y: Math.random() * window.innerHeight,
+              x: Math.random() * 1920,
+              y: Math.random() * 1080,
             }}
             animate={{
-              y: [null, Math.random() * window.innerHeight],
-              x: [null, Math.random() * window.innerWidth],
+              y: [null, Math.random() * 1080],
+              x: [null, Math.random() * 1920],
             }}
             transition={{
               duration: Math.random() * 10 + 10,
