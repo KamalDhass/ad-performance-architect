@@ -7,6 +7,8 @@ import ContactSection from "@/components/ContactSection";
 import PortfolioFooter from "@/components/PortfolioFooter";
 
 const Index = () => {
+  console.log('Index component rendered');
+  
   return (
     <div className="min-h-screen overflow-x-hidden">
       <PortfolioHeader />
